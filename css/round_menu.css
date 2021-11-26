@@ -1,0 +1,70 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1 Nov, 2018, 12:58:44 PM
+    Author     : VARSHA .M
+*/
+
+@import "https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+
+
+.id_1 img {
+  position: absolute;
+  left: 100px;
+  height: auto;
+  width: 400px;
+  display: none;
+  
+}
+.id_2 img {
+  position: absolute;
+  left: 100px;
+  height: auto;
+  width: 400px;
+  display: none;
+  
+}
+.id_3 img {
+  position: absolute;
+  left: 100px;
+  height: auto;
+  width: 400px;
+  display: none;
+  
+}
+.id_4 img {
+  position: absolute;
+  left: 100px;
+  height: auto;
+  width: 400px;
+  display: none;
+  
+}
+.id_5 img {
+  position: absolute;
+  left: 100px;
+  height: auto;
+  width: 400px;
+  display: none;
+  
+}
+
+.id_1:hover img {
+  display:block;
+  
+}
+.id_2:hover img {
+  display: block;
+}
+.id_3:hover img {
+  display: block;
+}
+.id_4:hover img {
+  display: block;
+}
+.id_5:hover img {
+  display: block;
+}

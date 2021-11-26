@@ -1,0 +1,323 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 Oct, 2018, 7:30:47 PM
+    Author     : VARSHA .M
+*/
+
+@media only screen and (max-width: 650px) {
+    .hey {
+        padding: 25% 0% 5% 0%;
+    }
+    .hello
+    {
+        font-size: 15px;
+        width: 150%;
+    }
+}
+
+
+body,h1,h2,h3,h4,h5,h6 {
+   font-family: Verdana;
+   font-weight: lighter;
+  }
+
+.sidenav {
+                    margin: 5px;
+                    
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    background-color: rgba(45,62,82);
+                    overflow-x: hidden;
+                    transition: 0.5s;
+                    padding-top: 60px;
+                }
+
+                .sidenav a {
+                    padding: 0px 8px 8px 32px;
+                    text-decoration: none;
+                    font-family: Verdana;
+                    font-size: 20px;
+                    color: #f5f5f5;
+                    display: block;
+                    transition: 0.3s;
+                }
+
+                .sidenav a:hover {
+                    color:#F9D209;
+                }
+
+                .sidenav .closebtn {
+                    position: absolute;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;
+                }
+
+                @media screen and (max-height: 450px) {
+                  .sidenav {padding-top: 10px;}
+                  .sidenav a {font-size: 18px;}
+                }
+                
+  .section-btn {
+    background-color: limegreen;
+    border-radius: 0;
+    border: 0;
+    color: #f9f9f9;
+    font-size: inherit;
+    font-weight: normal;
+    padding: 10px 25px;
+    transition: 0.5s 0.2s;
+  }
+  
+  /*button circle*/
+  
+ .menu-button {
+  
+  text-decoration: none;
+  text-align: center;
+  color: limegreen;
+  border-radius: 50%;
+  display: block;
+  height: 30px;
+  width: 30px;
+  line-height: 40px;
+  padding: 15px;
+  background: #f5f5f5;
+}
+
+.menu-button:hover
+{
+    
+    background-color: rgba(1,1,1,0.2);
+    
+}
+.menu-button:hover a
+{
+    
+    color: white;
+    
+}
+.on_hover {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+  }
+.on_hover img {
+    transition: 0.5s 0.1s;
+  }
+
+  .on_hover:hover img {
+    transform: scale(1.3);
+  }
+  
+  
+  
+  @-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+.on_hover .on-1-hover {
+    position: absolute;
+    background: #1c1c1c;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: 0.5s 0.2s;
+  }
+  
+  .on_hover:hover .on-1-hover {
+    opacity: 0.95;
+    transition-delay: 0.3s;
+    transform: translateY(0);
+  }
+  
+  
+  .on_hover .social-icon li a {
+    background: #292929;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #d9d9d9;
+    font-size: 20px;
+    margin: 15px 5px 5px 5px;
+    
+  }
+  .on-1-hover p {
+    padding-top: 30px;line-height: 25px;font-size: 20px;color: #dadada;
+  }
+  .on_hover .social-icon li a:hover {
+    color: #292929;
+    background-color: rgba(200, 255, 255,0.3);
+    
+    
+  }
+  
+  .on_hover .on-item {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  
+  .text_box{
+      
+    width: 250px;
+    height: 30px;
+    position: relative;
+    border: 2px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .14);
+    background-color: AliceBlue;
+    font-size: 14px;
+  }
+  
+   .top-nav-collapse {
+    background: rgba(225,225,225,0.7);
+  }
+ .top-nav-collapse span{
+    color: white;
+  }
+  
+.top-nav-collapse p{
+    color: #2D3E52;
+  }
+  
+  
+  
+  .sub-main-w3 {
+    
+    
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-main-w3 form {
+    max-width: 30%;
+    
+    background: rgba(42,62,82,0.8);
+    padding: 2%;
+    box-sizing: border-box;
+    
+    
+   
+    justify-content: center;
+    
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.22);
+}
+
+.form-style-agile {
+    
+    flex-basis: 100%;
+    padding: 5%;
+    
+}
+
+.sub-main-w3 label {
+    font-size: 14px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    float: right;
+}
+
+.sub-main-w3 label i {
+    font-size: 15px;
+    margin-left: 5px;
+    color: #fb5252;
+    background: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 1.9;
+    text-align: center;
+}
+
+.form-style-agile input
+ {
+    width: 100%;
+    color: #fff;
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background: rgba(45,62,80);
+    
+}
+
+.form-style-agile input[type="submit"] {
+    cursor:pointer;
+     width: 70%;
+    
+    outline: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 3px solid #2D3E52;
+    background: rgba(45,62,80);
+    color: #2D3E52;
+    background: #F9D209;
+    
+    transition: 0.5s all;
+}
+
+.form-style-agile input[type="submit"]:hover {
+    border: 3px solid white;
+    background:#2D3E52 ;
+    color: #F9D209;
+    transition: 0.5s all;
+    
+}
+
